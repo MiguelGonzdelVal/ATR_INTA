@@ -22,6 +22,6 @@ def long(i):
     #for j in range(2):ax[j].plot(np.array(Datos_dibujo)[:,0],Datos_dibujo[:,j+1],'go')
     
 fig, ax=plt.subplots(nrows=2)
-anim=animation.FuncAnimation(fig,long,interval=1)
+anim=animation.FuncAnimation(fig,long,interval=2000)
 plt.show()
     
